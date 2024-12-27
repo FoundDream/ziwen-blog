@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -58,7 +59,7 @@ const Home = () => {
         <h2 className="text-2xl font-bold mb-6">Let's Contact</h2>
         <p className="text-gray-600 text-md mb-4">
         很开心可以和你合作和学习。如果你想与我联系或一起讨论日常，欢迎通过&#20;
-        <a href="/contact" className="relative inline-block hover:after:top-[20%] after:content-[''] after:absolute after:z-[-1] after:top-[66%] after:left-[-0.1em] after:right-[-0.1em] after:bottom-0 after:transition-[top] after:duration-200 after:ease-[cubic-bezier(0,0.8,0.13,1)] after:bg-[rgba(79,192,141,0.5)]"> Contact Page </a>
+        <Link to="/contact" className="relative inline-block hover:after:top-[20%] after:content-[''] after:absolute after:z-[-1] after:top-[66%] after:left-[-0.1em] after:right-[-0.1em] after:bottom-0 after:transition-[top] after:duration-200 after:ease-[cubic-bezier(0,0.8,0.13,1)] after:bg-[rgba(79,192,141,0.5)]"> Contact Page </Link>
         &#20;联系我。希望我的存在可以让世界变得更好一些。
         </p>
       </section>
