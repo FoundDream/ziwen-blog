@@ -10,5 +10,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  assetsInclude: ['**/*.md']
+  assetsInclude: ['**/*.md'],
+  base: '/ziwen-blog/',
 })
+
