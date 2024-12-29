@@ -22,4 +22,5 @@ const n=`说来惭愧，最早开始学习前端就是为了给自己建网站�
 
 ## 结束
 
-IM SORRY ABOUT THAT DAYS. THIS IS MY FIRST BLOG AND FOR YOU.`;export{n as default};
+IM SORRY ABOUT THAT DAYS. THIS IS MY FIRST BLOG AND FOR YOU.
+`;export{n as default};
