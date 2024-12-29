@@ -19,4 +19,4 @@ export interface ArticlePreview {
 export interface ArticleDetail extends ArticlePreview {
   content: string;
   updatedAt: string;
-} 
+}

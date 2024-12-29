@@ -7,7 +7,6 @@ interface ArticleMetadata {
   createdAt: string;
 }
 
- 
 // 文章元数据
 export const articles: ArticleMetadata[] = [
   {
@@ -15,8 +14,9 @@ export const articles: ArticleMetadata[] = [
     title: '欢迎来到我的博客',
     date: '2024-12-27',
     tags: ['Blog', 'React', 'TypeScript'],
-    excerpt: '这是我的第一篇博客文章。在这里，我将会分享我的技术学习心得、开发经验和一些有趣的想法。',
-    createdAt: '2024-12-27'
+    excerpt:
+      '这是我的第一篇博客文章。在这里，我将会分享我的技术学习心得、开发经验和一些有趣的想法。',
+    createdAt: '2024-12-27',
   },
 ];
 
