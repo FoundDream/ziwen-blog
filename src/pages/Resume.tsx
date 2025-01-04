@@ -639,10 +639,10 @@ const Resume = () => {
         `}
       </style>
 
-      <div className="container mx-auto p-4">
-        <div className="flex flex-col lg:flex-row gap-6">
+      <div className="container w-full">
+        <div className="flex flex-col lg:flex-row gap-6 w-[100%]">
           {/* 左侧表单 */}
-          <div className="w-full lg:w-1/2 bg-gray-50 p-6 rounded-lg no-print">
+          <div className="w-full bg-gray-50 p-6 rounded-lg no-print">
             <div className="mb-6">
               <h2 className="text-lg font-semibold mb-2">📝 编辑简历</h2>
               <p className="text-gray-600 text-sm">
@@ -1392,8 +1392,8 @@ const Resume = () => {
           </div>
 
           {/* 右侧预览 */}
-          <div className="w-full lg:w-auto print-area bg-white p-6 rounded-lg shadow-md min-h-[600px]">
-            <div className="max-w-[800px] mx-auto">
+          <div className="w-full  print-area bg-white p-6 rounded-lg shadow-md min-h-[600px]">
+            <div className="max-w-full mx-auto">
               {/* 头部信息 */}
               <div className="flex justify-between items-start mb-2">
                 <div>

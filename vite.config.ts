@@ -11,5 +11,5 @@ export default defineConfig({
     },
   },
   assetsInclude: ['**/*.md'],
-  base: '/ziwen-blog/',
+  base: '/',
 });
