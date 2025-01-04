@@ -50,22 +50,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
-      <section className="mb-20">
-        <h2 className="text-2xl font-bold mb-6">Stack</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {skills.map(skill => (
-            <div
-              key={skill.name}
-              className="p-4 border rounded-lg hover:shadow-md transition-shadow"
-            >
-              <h3 className="font-semibold mb-2">{skill.name}</h3>
-              <p className="text-gray-600 text-sm">{skill.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <section className="mb-20">
         <h2 className="text-2xl font-bold mb-6">Let's Contact</h2>
         <p className="text-gray-600 text-md mb-4">
