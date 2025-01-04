@@ -1,7 +1,7 @@
 {
   "name": "ziwen-blog",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -41,5 +41,5 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
   },
-  "homepage": "https://FoundDream.github.io/ziwen-blog"
+  "homepage": "https://ziwen.xyz"
 }
