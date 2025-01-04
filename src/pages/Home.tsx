@@ -68,31 +68,4 @@ const Home = () => {
   );
 };
 
-const skills = [
-  {
-    name: 'Frontend',
-    description: 'Vue, React, TypeScript, Tailwind CSS',
-  },
-  {
-    name: 'Backend',
-    description: 'Node.js, Express, MongoDB',
-  },
-  {
-    name: 'Tools',
-    description: 'Git, VS Code, Cursor',
-  },
-  {
-    name: 'Learning',
-    description: 'Vite, Rollup, Webpack',
-  },
-  {
-    name: 'Other',
-    description: 'Linux, Docker, CI/CD',
-  },
-  {
-    name: 'Interests',
-    description: 'Hiphop Music, Valorant',
-  },
-];
-
 export default Home;
