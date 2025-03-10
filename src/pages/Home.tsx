@@ -34,12 +34,18 @@ const Home = () => {
             >
               @泰康在线
             </a>
-            ，目前实习在&#20;
             <a
               href="https://www.meituan.com/"
-              className="text-amber-500 relative inline-block hover:after:top-[20%] after:content-[''] after:absolute after:z-[-1] after:top-[66%] after:left-[-0.1em] after:right-[-0.1em] after:bottom-0 after:transition-[top] after:duration-200 after:ease-[cubic-bezier(0,0.8,0.13,1)] after:bg-[rgba(79,192,141,0.5)] decoration-transparent"
+              className="text-green-900 relative inline-block hover:after:top-[20%] after:content-[''] after:absolute after:z-[-1] after:top-[66%] after:left-[-0.1em] after:right-[-0.1em] after:bottom-0 after:transition-[top] after:duration-200 after:ease-[cubic-bezier(0,0.8,0.13,1)] after:bg-[rgba(79,192,141,0.5)] decoration-transparent"
             >
               @美团
+            </a>
+            ，目前实习在&#20;
+            <a
+              href="https://www.xiaohongshu.com/"
+              className="text-amber-500 relative inline-block hover:after:top-[20%] after:content-[''] after:absolute after:z-[-1] after:top-[66%] after:left-[-0.1em] after:right-[-0.1em] after:bottom-0 after:transition-[top] after:duration-200 after:ease-[cubic-bezier(0,0.8,0.13,1)] after:bg-[rgba(79,192,141,0.5)] decoration-transparent"
+            >
+              @小红书
             </a>
             。
           </p>
